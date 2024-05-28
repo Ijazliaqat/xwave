@@ -12,6 +12,9 @@ import Hero from "./components/hero/hero";
 import LogoCollection from "./components/partners-section/partners-section";
 import FAQs from "./components/faqs/faqs.jsx";
 import Team from "./components/team/team.jsx"
+import Feedbacks from "./components/feedbacks/feedbacks.jsx";
+import Courses from "./components/courses/courses.jsx";
+import Footer from "./components/footer/footer.jsx";
 
 // function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
 //   return (
@@ -72,6 +75,9 @@ function App() {
           <LogoCollection />
           <FAQs />
           <Team />
+          <Feedbacks />
+          <Courses />
+          <Footer />
         </Box>
       </ThemeProvider>
     </>
